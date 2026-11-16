@@ -1,0 +1,20 @@
+# 虚拟环境与构建产物
+.venv/
+venv/
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+
+# 绝对不要提交任何凭据
+.env
+.env.*
+*token*
+*secret*
+credentials*
+!README.md
+
+# 本地生成的报告
+reports/
+*.log
